@@ -1,0 +1,26 @@
+{
+  "name": "acorn-jsw",
+  "description": "jsw parser",
+  "homepage": "https://github.com/mark-hahn/acorn-jsw",
+  "version": "2.0.1",
+  "maintainers": [
+    {
+      "name": "Mark Hahn",
+      "email": "mark@hahnca.com",
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mark-hahn/acorn-jsw"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "dependencies": {
+    "acorn": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
